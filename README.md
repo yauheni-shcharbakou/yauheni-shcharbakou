@@ -1,5 +1,7 @@
 <div style="width: 100%; text-align: center">
-    <h1>Hi there 👋, I'm Evgenii Shcherbakov, Full-Stack developer</h1>
+    <h3>Hi there 👋</h3>
+    <h2>Evgenii Shcherbakov</h2>
+    <h4>Full-Stack developer</h4>
     <h3>Connect with me</h3>
     <a href="https://www.linkedin.com/in/iipekolict/">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
