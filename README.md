@@ -1,7 +1,6 @@
 <div style="width: 100%; text-align: center">
     <h3>Hi there 👋</h3>
-    <h2>Evgenii Shcherbakov</h2>
-    <h4>Full-Stack developer</h4>
+    <h2>Evgenii Shcherbakov (Full-Stack developer)</h2>
     <h3>Connect with me</h3>
     <a href="https://www.linkedin.com/in/iipekolict/">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
@@ -18,7 +17,6 @@
     <a href="https://vk.com/iipek0lict">
         <img src="https://img.shields.io/badge/вконтакте-%232E87FB.svg?&style=for-the-badge&logo=vk&logoColor=white" alt="VK">
     </a>
-    <hr>
     <h3>Preferred languages</h3>
     <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
     <img src="https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin">
@@ -33,7 +31,7 @@
     <h3>Stats</h3>
     <img 
         width="400px"
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=evgenii-shcherbakov&theme=dark&layout=compact&langs_count=10" 
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=evgenii-shcherbakov&theme=dark&layout=pie&langs_count=10" 
         alt="Lang stats"
     >
 </div>
