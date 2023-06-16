@@ -1,6 +1,9 @@
 ### Hi there 👋
 ## Evgenii Shcherbakov (Full-Stack developer)
 
+[Here](https://evgenii-shcherbakov.github.io) you can find my CV, and [here](https://github.com/evgenii-shcherbakov-lab/legacy) 
+my legacy projects and tasks
+
 ### Connect with me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/iipekolict)
@@ -25,7 +28,3 @@
 ### Stats
 
 [![Lang stats](https://github-readme-stats.vercel.app/api/top-langs/?username=evgenii-shcherbakov&theme=github_dark&layout=pie&langs_count=10)](https://github.com/anuraghazra/github-readme-stats)
-
-### Other
-
-[My legacy projects and tasks](https://github.com/evgenii-shcherbakov-lab/legacy)
