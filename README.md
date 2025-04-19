@@ -1,5 +1,5 @@
 ### Hi there 👋
-## Evgenii Shcherbakov (Full-Stack developer)
+## Yauheni Shcharbakou (Node.js developer)
 
 ### Connect with me
 
