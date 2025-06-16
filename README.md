@@ -1,7 +1,8 @@
 <h1 align="center">
-    Hi , I'm Yauheni Shcharbakou <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
-    <br/>
     <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+    <br/>
+    Hi , I'm Yauheni Shcharbakou 
+    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
 </h1>
 
 <p align="center">
@@ -65,14 +66,14 @@
     <a href="https://github.com/yauheni-shcharbakou/">
         <img 
             src="https://github-readme-stats.vercel.app/api/top-langs?username=yauheni-shcharbakou&amp;show_icons=true&amp;locale=en&amp;layout=pie&langs_count=12&amp;line_height=20&amp;title_color=7A7ADB&amp;icon_color=2234AE&amp;text_color=D3D3D3&amp;bg_color=0,000000,130F40" 
-            height="400"
+            height="300"
             alt="lang stats"
         >
     </a>
     <a href="https://github.com/yauheni-shcharbakou/">
         <img 
             src="https://github-readme-stats.vercel.app/api?username=yauheni-shcharbakou&amp;include_all_commits=true&amp;count_private=true&amp;show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&hide_rank=true&amp;line_height=20&amp;title_color=7A7ADB&amp;icon_color=2234AE&amp;text_color=D3D3D3&amp;bg_color=0,000000,130F40" 
-            height="400"
+            height="300"
             alt="activity stats"
         >
     </a>
