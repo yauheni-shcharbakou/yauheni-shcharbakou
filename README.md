@@ -65,7 +65,7 @@
 <div align="center">
     <a href="https://github.com/yauheni-shcharbakou/">
         <img 
-            src="https://github-readme-stats.vercel.app/api/top-langs?username=yauheni-shcharbakou&amp;show_icons=true&amp;locale=en&amp;layout=pie&langs_count=16&amp;line_height=20&amp;title_color=7A7ADB&amp;icon_color=2234AE&amp;text_color=D3D3D3&amp;bg_color=0,000000,130F40" 
+            src="https://github-readme-stats.vercel.app/api/top-langs?username=yauheni-shcharbakou&amp;show_icons=true&amp;locale=en&amp;layout=pie&langs_count=12&amp;line_height=20&amp;title_color=7A7ADB&amp;icon_color=2234AE&amp;text_color=D3D3D3&amp;bg_color=0,000000,130F41" 
             width="400"
             alt="lang stats"
         >
