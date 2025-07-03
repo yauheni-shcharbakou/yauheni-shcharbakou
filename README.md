@@ -65,7 +65,7 @@
 <div align="center">
     <a href="https://github.com/yauheni-shcharbakou/">
         <img 
-            src="https://github-readme-stats.vercel.app/api/top-langs?username=yauheni-shcharbakou&amp;show_icons=true&amp;locale=en&amp;layout=pie&langs_count=12&amp;theme=dark" 
+            src="https://github-readme-stats.vercel.app/api/top-langs?username=yauheni-shcharbakou&show_icons=true&locale=en&layout=pie&langs_count=12&theme=dark&border_radius=5" 
             width="400"
             alt="lang stats"
         >
@@ -73,7 +73,7 @@
     <br/>
     <a href="https://github.com/yauheni-shcharbakou/">
         <img 
-            src="https://github-readme-stats.vercel.app/api?username=yauheni-shcharbakou&amp;include_all_commits=true&amp;count_private=true&amp;show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&hide_rank=true&amp;theme=dark" 
+            src="https://github-readme-stats.vercel.app/api?username=yauheni-shcharbakou&include_all_commits=true&count_private=true&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&hide_rank=true&theme=dark&border_radius=5" 
             width="400"
             alt="activity stats"
         >
