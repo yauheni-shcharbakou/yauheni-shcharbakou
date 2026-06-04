@@ -1,87 +1,65 @@
-<h1 align="center">
-    <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-    <br/>
-    Hi , I'm Yauheni Shcharbakou 
-    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
-</h1>
-
-<p align="center">
-    <a href="https://github.com/DenverCoder1/readme-typing-svg">
-        <img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&amp;color=cyan&amp;size=25&amp;center=true&amp;vCenter=true&amp;width=600&amp;height=100&amp;lines=Yauheni+Shcharbakou...♥++;Node.js+Developer;3+years+of+commercial+experience;Active+Learner/Researcher">
-    </a>
-</p>
-
-## About me
-
-- Node.js developer with 3 years of commercial experience
-- Has expertise in **Typescript**, **Nest.js** and **MongoDB**
-- Experienced in organizing **microservice** architecture and integrating **bank card providers**
-- Worked with web projects in the field of **fintech** and **video conferencing**
-
-## Skills
-
-##### Languages
-
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Kotlin](https://img.shields.io/badge/Kotlin-A97BFF?&style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org/)
-[![Dart](https://img.shields.io/badge/Dart-00B4AB?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/)
-
-##### Frameworks
-
-[![Nest](https://img.shields.io/badge/nestjs-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)](https://nestjs.com/)
-[![Next](https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
-[![Angular](https://img.shields.io/badge/angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)](https://angular.io/)
-[![Express](https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
-
-[![Ktor](https://img.shields.io/badge/ktor-A97BFF?style=for-the-badge&logo=ktor&logoColor=white)](https://ktor.io/)
-[![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)](https://spring.io/)
-[![Flutter](https://img.shields.io/badge/flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/)
-
-##### Databases
-
-[![MongoDB](https://img.shields.io/badge/mongodb-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
-[![Mongoose](https://img.shields.io/badge/mongoose-3DAC84?style=for-the-badge&logo=mongoose&logoColor=white)](https://mongoosejs.com/)
-[![Firebase](https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
-
-[![PostgreSQL](https://img.shields.io/badge/postgresql-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![Typeorm](https://img.shields.io/badge/typeorm-9C9C9C?style=for-the-badge&logo=typeorm&logoColor=white)](https://typeorm.io/)
-[![Prisma](https://img.shields.io/badge/prisma-0c344b?style=for-the-badge&logo=prisma&logoColor=white)](https://www.prisma.io/)
-
-##### Other tools
-
-[![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)](https://kafka.apache.org/)
-[![Pug](https://img.shields.io/badge/pug-a86454?style=for-the-badge&logo=pug&logoColor=white)](https://pugjs.org/)
-[![SCSS](https://img.shields.io/badge/sass-c6538c?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/)
-[![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![GraphQL](https://img.shields.io/badge/GraphQl-E10098?style=for-the-badge&logo=graphql&logoColor=white)](https://graphql.org/)
-[![NPM](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/)
-
-[![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://developer.android.com/)
-[![Gradle](https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)](https://gradle.org/)
-
-## GitHub stats
-
 <div align="center">
-    <a href="https://github.com/yauheni-shcharbakou/">
-        <img 
-            src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=yauheni-shcharbakou&show_icons=true&locale=en&layout=pie&langs_count=12&theme=dark&border_radius=4.9" 
-            width="400"
-            alt="lang stats"
-        >
-    </a>
-    <br/>
-    <a href="https://github.com/yauheni-shcharbakou/">
-        <img 
-            src="https://github-readme-stats-fast.vercel.app/api?username=yauheni-shcharbakou&include_all_commits=true&count_private=true&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&hide_rank=true&theme=dark&border_radius=4.9" 
-            width="400"
-            alt="activity stats"
-        >
-    </a>
+
+# Yauheni Shcharbakou
+
+### Node.js Backend Engineer | Event-driven Microservices on Kafka + NestJS
+
+**FinTech · AdTech · Web3**
+
+8 microservices shipped solo · incident detection cut from 24h to 10 min · API latency down 10-15x
+
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+<img src="https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+<img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS" />
+<img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+<img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Kafka" />
+<img src="https://img.shields.io/badge/NATS-27AAE1?style=for-the-badge&logo=natsdotio&logoColor=white" alt="NATS" />
+<img src="https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+<img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" alt="Jest" />
+
 </div>
 
-## Let's connect!
+Backend developer with 4 years of commercial experience building event-driven microservice systems in TypeScript. I own backends end to end - from architecture to deploy - and care most about the parts that quietly break products: correct money math, ordered event processing, and incidents that surface in minutes instead of hours.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yauheni-shcharbakou)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/geneva_empire)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:iipekolict@gmail.com)
+On my current FinTech platform I am the sole backend engineer - 8 microservices, card-provider integrations, and the auth layer, all designed and built from scratch.
+
+## Selected Work
+
+- **Architected 8 microservices from scratch** as the sole backend engineer on a FinTech/Web3 platform - event-driven on NestJS + Kafka, with independent scaling and isolated business logic.
+- **Cut incident detection from 24+ hours to under 10 minutes** by building real-time alerting on Telegram and centralized logs with Redis debounce.
+- **Reduced transcript API latency 10-15x** (around 3s to 200-300ms) using compound indexes and database-level aggregation.
+- **Eliminated a payment ordering race condition** between API calls and provider webhooks via a custom Kafka transport with strict partition-key ordering - payment state transitions now process in guaranteed order per transaction.
+- **Sped up page loads 30-50%** with a Redis image-caching layer.
+- **Built an OpenSearch engine** indexing tens of thousands of call transcripts with full-text search, filtering, and aggregation.
+- **Shipped precise money math** with decimal.js, removing floating-point rounding errors across card and payment operations.
+
+## Tech Stack
+
+**Core:** TypeScript, Node.js (async/event loop, worker_threads, child_process, streams)
+**Frameworks:** NestJS, Express, RxJS, Next.js, React
+**Messaging & data:** Kafka, NATS, Redis, BullMQ, MongoDB (Mongoose), PostgreSQL, OpenSearch
+**Infra:** Docker, gRPC, WebSocket / Socket.io, AWS (Cognito, S3, CloudWatch), CI/CD (GitHub Actions, Vercel, Railway)
+**Security:** JWT, OAuth2, 2FA, bcrypt
+**Testing:** Jest (unit + e2e)
+
+## Featured Projects
+
+**[base](https://github.com/yauheni-shcharbakou/base)** - full-stack monorepo on Turborepo. Backend: NestJS + NATS JetStream microservices over gRPC. Admin: Next.js + Refine + MUI with server actions and server-side auth via http-only cookies. PostgreSQL through MikroORM.
+
+**[npm-packages](https://github.com/yauheni-shcharbakou/npm-packages)** - a collection of my own published TypeScript npm packages.
+
+**[YumaSpotify](https://github.com/not-yumasoft/spotify)** - Spotify-style audio-streaming clone. Built realtime interaction over WebSocket from scratch, set up CI/CD on GitHub Actions deploying to Vercel + Railway, and extracted shared socket logic into an auto-published npm package. Stack: NestJS, TypeORM, Socket.io, React, Firebase Storage.
+
+## Connect
+
+- Email: iipekolict@gmail.com
+- LinkedIn: https://www.linkedin.com/in/yauheni-shcharbakou/
+- Telegram: [@NATOvetc](https://t.me/NATOvetc)
+- Location: Tbilisi, Georgia
+
+**Open to remote Node.js backend roles.**
