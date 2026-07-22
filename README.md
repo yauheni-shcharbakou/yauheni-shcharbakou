@@ -53,8 +53,6 @@ On my current FinTech platform I am the sole backend engineer - 6 microservices,
 
 **[npm-packages](https://github.com/yauheni-shcharbakou/npm-packages)** - a collection of my own published TypeScript npm packages.
 
-**[YumaSpotify](https://github.com/not-yumasoft/spotify)** - Spotify-style audio-streaming clone. Built realtime interaction over WebSocket from scratch, set up CI/CD on GitHub Actions deploying to Vercel + Railway, and extracted shared socket logic into an auto-published npm package. Stack: NestJS, TypeORM, Socket.io, React, Firebase Storage.
-
 ## Connect
 
 - Email: yshcharbakou@gmail.com
