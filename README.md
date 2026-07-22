@@ -49,7 +49,7 @@ On my current FinTech platform I am the sole backend engineer - 6 microservices,
 
 ## Featured Projects
 
-**[base](https://github.com/yauheni-shcharbakou/base)** - full-stack monorepo on Turborepo. Backend: NestJS + NATS JetStream microservices over gRPC. Admin: Next.js + Refine + MUI with server actions and server-side auth via http-only cookies. PostgreSQL through MikroORM.
+**[base](https://github.com/yauheni-shcharbakou/base)** - personal-website monorepo - hexagonal NestJS gRPC microservices and a Next.js / Refine admin panel, wired together by custom Protobuf and NATS JetStream codegen pipelines.
 
 **[npm-packages](https://github.com/yauheni-shcharbakou/npm-packages)** - a collection of my own published TypeScript npm packages.
 
