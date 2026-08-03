@@ -6,7 +6,7 @@
 
 **FinTech · AdTech · Web3**
 
-6 microservices shipped solo · API latency cut 12x · 2 card-provider integrations
+6 microservices as sole backend engineer · API latency cut 12x · 2 card-provider integrations
 
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
 <img src="https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
@@ -24,28 +24,29 @@
 
 </div>
 
-Backend developer with 4+ years of commercial experience building event-driven microservice systems in TypeScript. I own backends end to end - from architecture to production - and care most about the parts that quietly break products: correct money math, ordered event processing, and dependable third-party integrations.
+Backend developer with 4+ years of commercial experience building event-driven microservice systems in TypeScript. I own the server side of a product end to end - from architecture design to shipped features - and care most about the parts that quietly break products: correct money math, ordered event processing, and dependable third-party integrations.
 
-On my current FinTech platform I am the sole backend engineer - 6 microservices, card-provider integrations, and the auth layer, designed and taken to production.
+On my current FinTech platform I am the sole backend engineer: 6 microservices, card-provider integrations, KYC and the auth layer, designed and built almost entirely from the ground up.
 
 ## Selected Work
 
-- **Designed and built 6 microservices** as the sole backend engineer on a FinTech/Web3 platform serving around 4,500 users and 1,000 issued cards - event-driven on NestJS + Kafka, with independent scaling and isolated business logic.
+- **Designed and built 6 microservices** as the sole backend engineer on a FinTech/Web3 platform serving around 4,500 users and 1,000 issued cards - event-driven on NestJS + Kafka, every service on PostgreSQL (MikroORM), with independent scaling and isolated business logic.
 - **Reduced transcript API latency 12x** (around 3s to 250ms) using compound indexes and database-level aggregation.
 - **Integrated 2 card-issuing providers** (Payca, Webscard) and eliminated an ordering race condition between API calls and their webhooks with a custom Kafka transport using strict partition-key ordering - payment state transitions now process in guaranteed order per transaction.
+- **Built the auth and compliance layer** of the platform - JWT, OAuth2, 2FA, bcrypt, plus Sumsub KYC verification that closed the regulatory identification requirement for card issuance - and shipped precise money math with decimal.js, removing floating-point rounding errors across card and payment operations.
 - **Shipped a self-service admin panel** (Next.js + Payload CMS) that let around 200 third-party game studios configure game mechanics, prize and competition rules on their own - previously every change required a platform developer.
-- **Built an OpenSearch engine** indexing tens of thousands of call transcripts with full-text search, filtering, and aggregation.
-- **Shipped precise money math** with decimal.js, removing floating-point rounding errors across card and payment operations.
+- **Built an OpenSearch engine** indexing around 50,000 call transcripts with full-text search, filtering, and aggregation, and covered the critical backend modules with Jest unit and e2e tests (80% coverage of the critical parts).
 - **Extended an AdminJS panel** with custom CkEditor plugins and React components for an ad-traffic arbitrage product, letting editors manage content without developer involvement.
 
 ## Tech Stack
 
 - **Core:** TypeScript, Node.js (async / event loop)
-- **Frameworks:** NestJS, Express, RxJS, Next.js, React, Payload CMS, AdminJS
+- **Frameworks:** NestJS, Express, RxJS, Next.js, React, Payload CMS, AdminJS, decimal.js
 - **Messaging & data:** Kafka, NATS, MongoDB (Mongoose), PostgreSQL (MikroORM), OpenSearch
-- **Infra:** Docker, gRPC, WebSocket / Socket.io, AWS (Cognito, S3, CloudWatch), CI/CD (GitHub Actions, Vercel, Railway)
-- **Security:** JWT, OAuth2, 2FA, bcrypt
-- **Testing:** Jest (unit + e2e)
+- **Infra:** Docker, Docker Compose, gRPC, WebSocket / Socket.io, HTTP/2, AWS (Cognito, S3, CloudWatch), CI/CD (GitHub Actions, GitLab, Vercel, Railway)
+- **Security & compliance:** JWT, OAuth2, 2FA, bcrypt, KYC (Sumsub)
+- **Testing & API docs:** Jest (unit + e2e), Swagger/OpenAPI, Postman
+- **Practices:** event-driven architecture, microservices, REST API, SOLID, DDD
 
 ## Featured Projects
 
