@@ -6,7 +6,7 @@
 
 **FinTech · AdTech · Web3**
 
-6 microservices as sole backend engineer · API latency cut 12x · 2 card-provider integrations
+11 microservices designed and shipped · $13.2M in monthly deposits · avg API response time cut 12x
 
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
 <img src="https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
@@ -26,26 +26,32 @@
 
 Backend developer with 4+ years of commercial experience building event-driven microservice systems in TypeScript. I own the server side of a product end to end - from architecture design to shipped features - and care most about the parts that quietly break products: correct money math, ordered event processing, and dependable third-party integrations.
 
-On my current FinTech platform I am the sole backend engineer: 6 microservices, card-provider integrations, KYC and the auth layer, designed and built almost entirely from the ground up.
+On my current product - a FinTech/Web3 platform for card issuing and deposits - I am the key backend developer: 11 microservices, card-provider integrations, KYC and the auth layer, designed and built almost entirely from the ground up, plus code review and mentoring for the 2 backend developers who joined later.
 
 ## Selected Work
 
-- **Designed and built 6 microservices** as the sole backend engineer on a FinTech/Web3 platform serving around 4,500 users and 1,000 issued cards - event-driven on NestJS + Kafka, every service on PostgreSQL (MikroORM), with independent scaling and isolated business logic.
-- **Reduced transcript API latency 12x** (around 3s to 250ms) using compound indexes and database-level aggregation.
-- **Integrated 2 card-issuing providers** (Payca, Webscard) and eliminated an ordering race condition between API calls and their webhooks with a custom Kafka transport using strict partition-key ordering - payment state transitions now process in guaranteed order per transaction.
-- **Built the auth and compliance layer** of the platform - JWT, OAuth2, 2FA, bcrypt, plus Sumsub KYC verification that closed the regulatory identification requirement for card issuance - and shipped precise money math with decimal.js, removing floating-point rounding errors across card and payment operations.
+- **Designed and built 11 microservices** covering card issuance, deposits, payments, KYC and auth as the key backend developer on a FinTech/Web3 platform for card issuing and deposits serving 62,800 users - largely from scratch, event-driven on NestJS + Kafka + gRPC, every service on PostgreSQL (MikroORM), with independent scaling and isolated business logic.
+- **Shipped a yield-deposit module** with automatic payouts at the end of the hold period - a new product flow that reached 7,600 deposits and $13.2M in monthly deposit volume.
+- **Unified 3 card-issuing providers** behind one integration layer on the Adapter and Strategy patterns - the first integration took 3-4 weeks, the third took 4 days - and eliminated an ordering race condition between API calls and provider webhooks with a custom Kafka transport using strict partition-key ordering, so payment state transitions process in guaranteed order per transaction.
+- **Cut the average transcript API response time 12x** (around 3s to 240ms) using compound indexes and aggregation at the MongoDB level, on a call-analytics backend where I also built an OpenSearch engine indexing around 50,000 transcripts with full-text search, filtering and aggregation, and covered the critical modules with Jest unit and e2e tests (82% coverage of the critical parts).
+- **Designed alerting on Grafana + Loki** with delivery to Telegram - service errors surface in 5-15 minutes instead of being found by reading logs by hand - and I run prod incidents off it: when a card provider started failing issuance on part of its BINs, I disabled those BINs in the admin panel and escalated to the provider, so issuance kept working on the rest instead of the whole service stopping.
 - **Shipped a self-service admin panel** (Next.js + Payload CMS) that let around 200 third-party game studios configure game mechanics, prize and competition rules on their own - previously every change required a platform developer.
-- **Built an OpenSearch engine** indexing around 50,000 call transcripts with full-text search, filtering, and aggregation, and covered the critical backend modules with Jest unit and e2e tests (80% coverage of the critical parts).
-- **Extended an AdminJS panel** with custom CkEditor plugins and React components for an ad-traffic arbitrage product, letting editors manage content without developer involvement.
+- **Extended an AdminJS panel** with custom CkEditor plugins and React components for an AdTech product (ad-traffic arbitrage), and added video upload and storage through the Bunny API - editors manage content without developer involvement.
 
 ## Tech Stack
 
 - **Core:** TypeScript, Node.js (async / event loop)
-- **Frameworks:** NestJS, Express, RxJS, Next.js, React, Payload CMS, AdminJS, decimal.js
-- **Messaging & data:** Kafka, NATS, MongoDB (Mongoose), PostgreSQL (MikroORM), OpenSearch
-- **Infra:** Docker, Docker Compose, gRPC, WebSocket / Socket.io, HTTP/2, AWS (Cognito, S3, CloudWatch), CI/CD (GitHub Actions, GitLab, Vercel, Railway)
-- **Security & compliance:** JWT, OAuth2, 2FA, bcrypt, KYC (Sumsub)
-- **Testing & API docs:** Jest (unit + e2e), Swagger/OpenAPI, Postman
+
+- **Frameworks:** NestJS, Express, Next.js, React, Payload CMS, AdminJS, CkEditor, decimal.js
+
+- **Messaging & data:** Kafka (idempotent consumers, DLQ), NATS, gRPC, MongoDB (Mongoose), PostgreSQL (MikroORM), SQL, Redis, OpenSearch
+
+- **Infra:** Docker, Docker Compose, WebSocket / Socket.io, HTTP/2, Grafana + Loki, AWS (Cognito, S3, CloudWatch), Bunny.net, CI/CD (GitHub Actions, GitLab)
+
+- **Security & compliance:** JWT, OAuth2, 2FA, password hashing (bcrypt), KYC verification (Sumsub)
+
+- **Testing:** Jest (unit + e2e), Postman
+
 - **Practices:** event-driven architecture, microservices, REST API, SOLID, DDD
 
 ## Featured Projects
@@ -59,6 +65,6 @@ On my current FinTech platform I am the sole backend engineer: 6 microservices, 
 - Email: yshcharbakou@gmail.com
 - LinkedIn: https://www.linkedin.com/in/yauheni-shcharbakou/
 - Telegram: [@yshcharbakou](https://t.me/yshcharbakou)
-- Location: Tbilisi, Georgia
+- Location: Tbilisi, Georgia (GMT+4)
 
 **Open to remote and onsite / hybrid Node.js backend roles in Tbilisi.**
