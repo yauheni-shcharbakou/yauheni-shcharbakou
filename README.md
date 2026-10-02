@@ -26,7 +26,7 @@
 
 Backend developer with 4+ years of commercial experience building event-driven microservice systems in TypeScript. I own the server side of a product end to end - from architecture design to shipped features - and care most about the parts that quietly break products: correct money math, ordered event processing, and dependable third-party integrations.
 
-On my current product - a FinTech/Web3 platform for card issuing and deposits - I am the key backend developer: 11 microservices, card-provider integrations, KYC and the auth layer, designed and built almost entirely from the ground up, plus code review and mentoring for the 2 backend developers who joined later.
+On a FinTech/Web3 platform for card issuing and deposits I was the key backend developer: 11 microservices, card-provider integrations, KYC and the auth layer, designed and built almost entirely from the ground up, plus code review and mentoring for the 2 backend developers who joined later.
 
 ## Selected Work
 
@@ -56,7 +56,7 @@ On my current product - a FinTech/Web3 platform for card issuing and deposits - 
 
 ## Featured Projects
 
-**[base](https://github.com/yauheni-shcharbakou/base)** - personal-website monorepo - hexagonal NestJS gRPC microservices and a Next.js / Refine admin panel, wired together by custom Protobuf and NATS JetStream codegen pipelines.
+**[base](https://github.com/yauheni-shcharbakou/base)** - personal-website monorepo: hexagonal NestJS gRPC microservices and a Next.js / Refine admin panel, wired together by custom Protobuf and typed event-bus codegen (Redis/BullMQ, NATS-ready). PostgreSQL + MikroORM, Bunny uploads, Railway infrastructure as code applied from CI.
 
 **[npm-packages](https://github.com/yauheni-shcharbakou/npm-packages)** - a collection of my own published TypeScript npm packages.
 
@@ -65,6 +65,6 @@ On my current product - a FinTech/Web3 platform for card issuing and deposits - 
 - Email: yshcharbakou@gmail.com
 - LinkedIn: https://www.linkedin.com/in/yauheni-shcharbakou/
 - Telegram: [@yshcharbakou](https://t.me/yshcharbakou)
-- Location: Tbilisi, Georgia (GMT+4)
+- Location: Minsk, Belarus (GMT+3)
 
-**Open to remote and onsite / hybrid Node.js backend roles in Tbilisi.**
+**Open to remote and onsite / hybrid Node.js backend roles in Minsk.**
